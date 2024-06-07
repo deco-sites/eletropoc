@@ -22,9 +22,51 @@
           "title": "Teste 01",
           "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
           "image": "https://cuida.electrolux.com.br/assets/images/banner-home-new.png"
+        },
+        {
+          "title": "Teste 01",
+          "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+          "image": "https://cuida.electrolux.com.br/assets/images/banner-home-new.png"
+        },
+        {
+          "title": "Teste 01",
+          "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+          "image": "https://cuida.electrolux.com.br/assets/images/banner-home-new.png"
+        },
+        {
+          "title": "Teste 01",
+          "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+          "image": "https://cuida.electrolux.com.br/assets/images/banner-home-new.png"
         }
       ],
-      "title": "Qualidade na sua casa"
+      "title": "Qualidade na sua casa",
+      "desktopColumns": 3
+    },
+    {
+      "__resolveType": "site/sections/Card.tsx",
+      "items": [
+        {
+          "title": "Teste 01",
+          "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+          "image": "https://cuida.electrolux.com.br/assets/images/banner-home-new.png"
+        },
+        {
+          "title": "Teste 01",
+          "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+          "image": "https://cuida.electrolux.com.br/assets/images/banner-home-new.png"
+        },
+        {
+          "title": "Teste 01",
+          "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+          "image": "https://cuida.electrolux.com.br/assets/images/banner-home-new.png"
+        },
+        {
+          "title": "Teste 01",
+          "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+          "image": "https://cuida.electrolux.com.br/assets/images/banner-home-new.png"
+        }
+      ],
+      "title": "Encontre os melhores produtos"
     },
     {
       "__resolveType": "site/sections/Hero.tsx",

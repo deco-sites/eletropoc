@@ -3,6 +3,7 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 
 interface Props {
   title?: string;
+  desktopColumns?: 2 | 3 | 4;
   items?: Card[];
 }
 
@@ -34,14 +35,16 @@ function Card({image, title, text}: Card) {
   )
 }
 
-function CardContainer({title, items}: Props) {
+function CardContainer({title, desktopColumns, items}: Props) {
+
+  const cols = desktopColumns ? `lg:grid-cols-${desktopColumns}` : `lg:grid-cols-2`;
   return (
     <div>
       <div class="w-full py-20">
         <h2 class="block text-4xl font-normal text-primary text-center mb-8">
           {title}
         </h2>
-        <div class="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 container mx-auto gap-4 px-4 lg:px-0">
+        <div class={`relative grid grid-cols-1 sm:grid-cols-2 ${cols} container mx-auto gap-4 px-4 lg:px-0`}>
           {
             items?.map((item) => (
               <Card
